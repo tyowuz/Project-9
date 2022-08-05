@@ -1,9 +1,8 @@
-let count = 0
-
 let countEl = document.getElementById("count-el")
-
+let count = 0
+ 
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
     console.log(count)
 }
@@ -11,11 +10,4 @@ function increment() {
 function save() {
     console.log(count)
 }
-
-let myName = "Fater"
-let greeting = "Hi, my name is "
-
-let myGreeting =  greeting + myName
-
-console.log(myGreeting)
 

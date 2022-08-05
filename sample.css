@@ -1,0 +1,16 @@
+.a1{
+    text-align: center;
+    width: 15rem;
+    border: 1px solid black;
+    padding: 20px; 
+    background-color: bisque;
+}
+#increment-btn{
+    background-color: darkblue;
+    color: white
+}
+#save-btn{
+    background-color: brown;
+    color: white;
+    margin-top: 10px;
+}
